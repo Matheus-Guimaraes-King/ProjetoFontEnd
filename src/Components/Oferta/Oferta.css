@@ -1,0 +1,93 @@
+.section-oferta {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.oferta {
+    display: flex;
+    width: 90rem;
+    justify-content: space-around;
+    gap: 8rem;
+}
+
+.imagensOferta1{
+    position: relative; 
+    top: 0; 
+    left :0;
+    margin-left: 3.25rem;
+}
+
+.imagensOferta2{
+    position: absolute; 
+    top: 8.2rem; 
+    left: 1rem;
+}
+
+#ellipse {
+    /* width: 29rem;
+    height: 29rem; */
+    margin-left: 6rem;
+    margin-top: 6rem;
+}
+
+#airjordan {
+    /* width: 35rem;
+    height: 20.5rem; */
+}
+
+.text {
+    font-family: Inter;
+    margin-right: 9.938rem;
+    margin-top: 5rem;
+}
+
+#ofertaEspecial {
+    color: var(--primary);
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.75x;
+    line-height: 1.375rem;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+#h2Oferta {
+    color: var(--dark-gray-2);
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 0.063rem;
+    line-height: 3.125rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#descricao-oferta{
+    color: var(--dark-gray-2);
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.75x;
+    line-height: 28px;
+}
+
+#verOferta {
+    margin-top: 1rem;
+    color: var(--light-gray-3);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75x;
+    text-align: center;
+    background-color: var(--primary);
+    border-radius: 8px;
+    width: 12.5rem;
+    height: 2.5rem;
+    border: none;
+}
+
+#verOferta:hover {
+    background-color: var(--tertiary);
+    transition: 0.5;
+    cursor: pointer;
+}

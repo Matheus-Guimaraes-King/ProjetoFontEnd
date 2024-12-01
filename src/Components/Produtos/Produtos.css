@@ -1,0 +1,50 @@
+.destaque{
+    background-color: var(--light-gray-3);
+    padding: 40px 20px;
+    /* text-align: center; */
+}
+
+.caixa-de-produtoss{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.caixa-de-produtos{
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+
+    
+}
+
+.caixa-de-produtos button{
+    background: white ;
+    height: 280px;
+    width: 250px;
+}
+
+.caixa-de-produtos img{
+    display: flex;
+    justify-content: center;
+    width: 220px;
+}
+
+.tenis{
+    color: #8F8F8F;
+    font-size: 12px;
+}
+
+.caixa-de-produtos h3{
+    font-size: 20px;
+}
+
+.preco{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.caixa-de-produtos del{
+    color: #8F8F8F;
+}
